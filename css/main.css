@@ -1,0 +1,126 @@
+/*
+|------------------------------------------
+|  Global Styles
+|------------------------------------------
+*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.theme-wrapper {
+    overflow: hidden;
+    position: relative;
+    min-height: 100vh;
+}
+
+.bg-lt-gray {
+    background: rgb(230, 230, 230);
+}
+
+/*
+|------------------------------------------
+|  Header
+|------------------------------------------
+*/
+
+.navbar .navbar-brand {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 2rem;
+    color: rgb(65, 40, 207);
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all .35s ease;
+}
+
+.navbar .navbar-brand:hover {
+    color: rgb(49, 24, 185);
+}
+
+/*
+|------------------------------------------
+|  Todo Content
+|------------------------------------------
+*/
+
+.new-task {
+    margin-top: 3rem;
+}
+
+/* validate error message */
+label.error {
+    color: rgb(230, 0, 0);
+    font-size: 0.9rem;
+}
+
+/*
+|------------------------------------------
+|  Helper Classes
+|------------------------------------------
+*/
+
+.alert-success {
+    transition: opacity .4s ease;
+    opacity: 1;
+}
+
+.alert-success.hide {
+    /* visibility: hidden; */
+    opacity: 0;
+}
+
+/*
+|------------------------------------------
+|  Button/ Links
+|------------------------------------------
+*/
+
+.btn {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.btn:hover.btn-purple {
+    color: rgb(65, 40, 207);
+    background: #fff;
+    border: 1px solid rgb(65, 40, 207);
+}
+
+.btn:hover.btn-red {
+    color: rgb(202, 43, 43);
+    background: #fff;
+    border: 1px solid rgb(202, 43, 43);
+}
+
+.btn-purple {
+    background: rgb(65, 40, 207);
+}
+
+.btn-red {
+    background: rgb(202, 43, 43);
+}
+
+/*
+|------------------------------------------
+|  Footer
+|------------------------------------------
+*/
+
+.ftr {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+.ftr a {
+    color: #4128cf;
+    transition: all .35s ease;
+}
+
+.ftr a:hover {
+    color: #4128cf96;
+    text-decoration: none;
+}
