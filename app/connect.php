@@ -5,13 +5,13 @@
     // To access data in MySQL database, we need to connect to the server first. To connect to MySQL, we should know information such as username, password, database name, and server name.
 
     // server username
-    $username = "heath320_main";
+    $username = "";
 
     // server password for the given username above
-    $password = "qgGH5lDN(sal";
+    $password = "";
 
     // database we are trying to connect
-    $database ="heath320_things2do";
+    $database ="";
 
     // location of the server we are connecting to 
     $host = "localhost";
